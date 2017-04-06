@@ -1,0 +1,11 @@
+Sometimes, you need to create a directory within a directory that doesn't yet exist. Try creating a directory multiple layers deep into the learn_linux directory that you created in the previous challenge, and you'll see that mkdir fails once it finds that one of the parent directories does not exist.
+
+See for yourself:
+
+$ mkdir ~/learn_linux/challenges/scripts
+
+One way to create that directory would be to keep calling mkdir until you get to the last directory that you want to create. However, mkdir gives us an option to do that in one command. The -p, or --parent, option will not error if parent directories don't exist, and it will create them for you.
+
+Challenge: Create the ~/learn_linux/challenges/scripts directory using mkdir only once.
+
+NOTE: You can use the rmdir command to delete an empty directory if you need to fix failed attempts.

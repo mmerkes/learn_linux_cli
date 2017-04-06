@@ -1,0 +1,27 @@
+The Unix file system has a hierarchical file like a tree with directories and files. There are a number of rudimentary commands you'll need to find your way around. For instance, to change directories, you'll need the cd command:
+
+$ cd /bin
+
+This command takes you to the directory that includes numerous binaries. Another useful command is ls, which is used to list the contents of a directory.
+
+$ ls
+
+Each user has a home directory that might look something like /Users/Matt. Unix has a special character for referencing the home directory: ~. For example, to change to the Documents directory in your home directory, it will look like this:
+
+$ cd ~/Documents
+
+Or, you can just go back to your home directory:
+
+$ cd ~
+
+Now, let's say we want to create a new directory. You'll need the mkdir command.
+
+$ mkdir projects
+
+This command will make a folder called "projects" in your current directory. To see your current directory, use pwd:
+
+$ pwd
+
+This will list the path of your current location.
+
+Challenge: Use mkdir to create the "learn_linux" directory in your home directory.

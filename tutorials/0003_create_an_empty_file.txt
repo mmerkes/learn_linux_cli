@@ -1,0 +1,11 @@
+Oftentimes, you'll want to create an empty file. There's a command for that!
+
+$ touch myfile.txt
+
+When you run ls, you'll see that the file exists. You can also create a file within any directory.
+
+$ touch ~/Documents/foo
+
+This command would create an empty file called "foo" in the Documents directory in the home directory.
+
+Challenge: Create an empty file called "empty.txt" inside the "learn_linux/challenges" directory you created in a previous challenge.
